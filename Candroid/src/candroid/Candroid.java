@@ -1,23 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package candroid;
 
-/**
- *
- * @author X1-CB
- */
 public class Candroid {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Next Trend");
-        System.out.println("Trends Never end");
+        byte x = 127;       
+        short y = 128;
+        int z = 25;
+        long longNumber = 999999999;
+        long nextTrend = 1546584;
+        
+        double decimalNumber = 13.56;
+        
+        // alt + enter
+        float floatDecimalNumber = (float) 12.6;
+        
+        // character
+        char letter = 'A';
+        char anotherLetter = '1';
+        
+        boolean t = true;
+        boolean f = false;
+        
+        System.out.println(nextTrend);
     }
     
 }
